@@ -206,12 +206,12 @@ a {
 }
 
 .hw-logo {
-	height: 50px;
+	height: 80px;
 	position: relative;
 }
 
 .logo {
-	height: 50px;
+	height: 80px;
 }
 
 .word {
@@ -266,7 +266,12 @@ a {
 	background: url(../img/bg-pic2.png) no-repeat;
 	background-size: 100% 100%;
 }
-
+.footer p{
+      color: #7f8c8d;
+      margin: 0;
+      padding: 15px 0;
+      text-align: center;
+}
 .footer ul {
 	padding-top: 40px;
 	width: 85%;
@@ -315,7 +320,8 @@ a {
 
 .part-5-words2 span em {
 	font-style: normal;
-	margin-left: 5px;
+	/* margin-left: 5px; */
+	align-content: center;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -672,6 +678,31 @@ a {
 	font-size: 14px;
 }
 
+.about {
+      background: #fff;
+      padding-bottom: 40px;
+      /* color: #7f8c8d; */
+ }
+
+.about-color {
+      color: #34495e;
+ }
+
+ .about-title {
+      font-size: 180%;
+      padding: 30px 0 50px 0;
+      text-align: center;
+ }
+.platform-3{
+	padding: 2px 5px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #128abc;
+	border: 1px solid #128abc;
+	border-top-right-radius:2em;
+	border-bottom-right-radius:2em;
+	display: inline-block;
+}
 .see-more2 {
 	padding: 5px 15px;
 	color: #fff;
@@ -931,7 +962,9 @@ a {
 
 
 /*解决方案详情*/
-
+.words-size20{
+	font-size: 20px;
+}
 .words-title {
 	margin-top: 15px;
 	text-align: center;
@@ -994,7 +1027,9 @@ i.am-icon-file-text.file-text {
 .product-show-ul {
 	width: 100%;
 }
-
+.white-li{
+	background-color: #ffffff;
+}
 .gray-li {
 	background-color: #f0eeed;
 }
@@ -1366,7 +1401,7 @@ margin-bottom: 10px;}
 
 
 /*关于我们*/
-.part-title-mar{padding-top: 30px;
+.part-title-mar{padding-top: 10px;
 padding-bottom: 25px;}
 .company-intro {
 	margin: 0 22%;
@@ -1527,13 +1562,13 @@ padding-bottom: 25px;}
 
 .recruit-left,
 .recruit-right {
-	padding: 0 10px;
+	padding: 0 30px;
 }
 
 .daiyu {
 	width: 100%;
 	background-color: #0086da;
-	padding: 30px 0;
+	padding: 40px 0;
 }
 
 .daiyu-title-ul {
